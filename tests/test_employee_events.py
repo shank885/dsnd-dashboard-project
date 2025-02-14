@@ -52,7 +52,7 @@ def test_employee_table_exists(table_names):
 # `test_team_table_exists`
 # This function should receive the `table_names`
 # fixture as an argument
-def test_team_table_exists(table_names)
+def test_team_table_exists(table_names):
     # Assert that the string 'team'
     # is in the table_names list
     assert "team" in tables_names, "'team' table does not exist in the database"
